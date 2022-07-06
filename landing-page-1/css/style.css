@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+
+/* header */
+
 .header {
     width: 100%;
     background-color: #0a2640;
@@ -9,6 +12,9 @@
     padding-top: 56px;
     color: white;
 }
+
+
+/* header nav */
 
 .nav {
     width: 1200px;
@@ -21,7 +27,83 @@
     align-items: center;
 }
 
+
+/* nav items */
+
 .nav-items {
     display: flex;
     align-items: center;
+    width: 419px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+
+/* link nav */
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.nav-items li .nav-link-login {
+    background-color: white;
+    color: darkblue;
+    padding: 8px 20px;
+    border-radius: 90px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* hero frame */
+
+.hero-frame {
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.hero-text-box {
+    width: 567px;
+    height: 310px;
+}
+
+.hero-text-title {
+    height: 138px;
+    /* width: 567px; */
+    text-align: left;
+    font-size: 56px;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+}
+
+.hero-text-content {
+    height: 56px;
+    color: lightgray;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    margin-top: 40px;
+}
+
+.btn-buy {
+    padding: 16px 56px;
+    border-radius: 90px;
+    background-color: #69e6a6;
+    border: none;
+    color: darkblue;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
 }
