@@ -8,7 +8,7 @@
 .header {
     width: 100%;
     background-color: #0a2640;
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 56px;
     color: white;
 }
@@ -70,6 +70,9 @@ a:link {
     height: 100vh;
     margin: auto;
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: 567px 493.86px;
+    justify-content: space-between;
 }
 
 .hero-text-box {
@@ -97,6 +100,10 @@ a:link {
     margin-top: 40px;
 }
 
+.btn {
+    box-sizing: border-box;
+}
+
 .btn-buy {
     padding: 16px 56px;
     border-radius: 90px;
@@ -106,4 +113,31 @@ a:link {
     font-size: 20px;
     line-height: 28px;
     text-align: left;
+    margin-right: 24px;
+}
+
+.btn-explore {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    padding: 16px 46px;
+    border-radius: 90px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.container-chart {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 192.18px 261.96px;
+    justify-content: space-between;
+}
+
+.bg-chart {
+    background-image: url("/img/bg-chart.png");
+}
+
+.img {
+    display: inline-block;
 }
