@@ -19,7 +19,6 @@
 .nav {
     width: 1200px;
     height: 42px;
-    border: 3px solid white;
     /* margin-top: 100px; */
     margin: auto;
     display: flex;
@@ -56,7 +55,7 @@ a:link {
 .nav-items li .nav-link-login {
     background-color: white;
     color: darkblue;
-    padding: 8px 20px;
+    padding: 8px 30px;
     border-radius: 90px;
     text-align: center;
     vertical-align: middle;
@@ -140,4 +139,37 @@ a:link {
 
 .img {
     display: inline-block;
+}
+
+.header-footer {
+    margin: auto;
+    width: 1173px;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 145px;
+    height: 42px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 10px;
+}
+
+.shape-logo {
+    width: 23.16px;
+    height: 33.16px;
+    vertical-align: middle;
+}
+
+.footer-logo p {
+    /* margin: 0; */
+    width: 111.77px;
+    height: 42px;
+    font-size: 36.27px;
+    line-height: 28.2px;
+    text-align: left;
+    vertical-align: middle;
 }
