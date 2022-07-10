@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    color: #fff;
+    box-sizing: border-box;
 }
 
 
@@ -11,6 +13,7 @@
     /* height: 100vh; */
     padding-top: 56px;
     color: white;
+    position: relative;
 }
 
 
@@ -24,6 +27,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 100;
 }
 
 
@@ -45,7 +50,7 @@
 /* link nav */
 
 a:link {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: 16px;
     line-height: 28px;
@@ -72,6 +77,8 @@ a:link {
     display: grid;
     grid-template-columns: 567px 493.86px;
     justify-content: space-between;
+    position: relative;
+    z-index: 100;
 }
 
 .hero-text-box {
@@ -141,12 +148,17 @@ a:link {
     display: inline-block;
 }
 
+
+/* header footer */
+
 .header-footer {
     margin: auto;
     width: 1173px;
     height: 93px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 100;
 }
 
 .footer-logo {
@@ -169,7 +181,23 @@ a:link {
     width: 111.77px;
     height: 42px;
     font-size: 36.27px;
-    line-height: 28.2px;
+    /* line-height: 28.2px; */
     text-align: left;
     vertical-align: middle;
+}
+
+.logo-satu,
+.logo-enam {
+    opacity: 0.15;
+}
+
+.shape-lingkaran {
+    width: 1293px;
+    height: 1293px;
+    background-color: #1c3d5b;
+    border-radius: 100%;
+    position: absolute;
+    top: -800px;
+    right: -730px;
+    z-index: 0;
 }
