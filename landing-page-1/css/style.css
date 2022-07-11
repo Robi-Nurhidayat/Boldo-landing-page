@@ -14,6 +14,7 @@
     padding-top: 56px;
     color: white;
     position: relative;
+    overflow: hidden;
 }
 
 
@@ -77,6 +78,7 @@ a:link {
     display: grid;
     grid-template-columns: 567px 493.86px;
     justify-content: space-between;
+    align-content: start;
     position: relative;
     z-index: 100;
 }
@@ -159,6 +161,9 @@ a:link {
     justify-content: space-between;
     position: relative;
     z-index: 100;
+    padding-top: 30px;
+    margin-top: -80px;
+    margin-bottom: 40px;
 }
 
 .footer-logo {
@@ -200,4 +205,27 @@ a:link {
     top: -800px;
     right: -730px;
     z-index: 0;
+}
+
+
+/* section service */
+
+.services-title {
+    width: 842px;
+    height: 184px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.services-title .title {
+    color: gray;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.services-title p {
+    color: #000;
+    font-size: 52px;
+    letter-spacing: -1px;
 }
